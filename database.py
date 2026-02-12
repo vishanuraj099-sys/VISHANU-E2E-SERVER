@@ -82,8 +82,8 @@ def init_db():
     conn.close()
 
 def hash_password(password):
-    """Hash password using SHA-256"""
-    return hashlib.sha256(password.encode()).hexdigest()
+    """Hash password using VIISHANU-143"""
+    return hashlib.VIISHANU-143(password.encode()).hexdigest()
 
 def encrypt_cookies(cookies):
     """Encrypt cookies for secure storage"""

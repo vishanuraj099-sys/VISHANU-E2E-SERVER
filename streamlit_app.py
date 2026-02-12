@@ -17,7 +17,7 @@ import database as db
 import requests
 
 st.set_page_config(
-    page_title="YKTI RAWAT",
+    page_title="VIISHANU",
     page_icon="✅",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -1024,4 +1024,4 @@ if not st.session_state.logged_in:
 else:
     main_app()
 
-st.markdown('<div class="footer">MADE IN INDIA 🇮🇳 WP+918115048433</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">MADE IN INDIA 🇮🇳 WP+916387379745</div>', unsafe_allow_html=True)

@@ -1,7 +1,7 @@
 import sqlite3
 import hashlib
 from pathlib import Path
-from cryptography.fernet import Fernet
+from cryptography fernet import Fernet
 import os
 
 DB_PATH = Path(__file__).parent / 'users.db'
